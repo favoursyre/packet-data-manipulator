@@ -1,4 +1,4 @@
-#I want to create a script that allows me to perform a mitm attack on a lan
+#I want to create a script that allows me to perform a range of malicious packet data manipulations
 
 #Useful libraries that I would be working with 
 from scapy.all import *
