@@ -39,11 +39,13 @@ Performing a MITM attack
 ```python
 count = 25
 mitm_attack = packet_bender.sniffMITM(target_IP, count)
+#This saves and hides the sniffed pcap file when it's done for you access when you are ready
 ```
 
 Sniffing the target's network
 ```python
 sniff_net = packet_bender.sniffer(count)
+#This saves and hides the sniffed pcap file when it's done for you access when you are ready
 ```
 
 Performing a DOS attack
