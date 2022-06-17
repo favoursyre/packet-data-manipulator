@@ -11,7 +11,7 @@ This script is for educational purposes only, I don't endorse or promote it's il
 6. [Run](#run)
 
 ## Overview
-This script performs a range of packet data manipulations
+This script performs a range of malicious packet data manipulations
 
 ## Features
 * Performs a MITM attack and sniffs on the network
