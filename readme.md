@@ -32,12 +32,12 @@ Instantiating the class
 ```python
 target = "target's name"
 target_IP = "target's IP"
+count = 25
 packet_bender = PacketBender(target)
 ```
 
 Performing a MITM attack
 ```python
-count = 25
 mitm_attack = packet_bender.sniffMITM(target_IP, count)
 #This saves and hides the sniffed pcap file when it's done for you access when you are ready
 ```
